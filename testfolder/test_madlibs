@@ -1,0 +1,31 @@
+#lines of varables
+test = "One good"
+test2 = "deserves another"
+
+#Display the entire sentencing with missing word
+print("One good ________ deserves another")
+
+#take inputs from users
+madt = input("type here ")
+
+
+print("{} {}, {}" .format(test,madt,test2))
+ 
+
+
+
+#take new inputs (inputs2)
+
+#lines of varables
+test3 = "The"
+test4 = "came before the egg"
+
+#Display the entire sentencing with missing word
+print("The ________ came before the egg")
+
+#take inputs from users
+madt2 = input("type here ")
+
+
+#distake output
+print("{} {}, {}" .format(test3,madt2,test4))

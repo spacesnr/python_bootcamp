@@ -1,0 +1,17 @@
+import sys
+
+script, first, second, third = sys.argv
+
+#sixth = sys.raw_input()
+#seventh = sys.raw_input()
+#eight = sys.raw_input()
+
+
+print("you first argument is {}" .format(script))
+print("you second argument is {}" .format(first))
+print("you third argument is {}" .format(second))
+print("you fourth argument is {}" .format(third))
+
+"""print("you first argument is %s" %sixth)
+print("you first argument is %s" %seventh)
+print("you first argument is %s" %eight)"""

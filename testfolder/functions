@@ -1,0 +1,15 @@
+x=4
+y=20
+
+def mul():
+    x=2
+    print(x*y)
+
+def div():
+    y=10
+    print(y/x)
+
+mul()
+div()
+print(x)
+print(y)
