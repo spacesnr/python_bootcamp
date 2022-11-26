@@ -1,2 +1,2 @@
-# python_bootcamp
-Learning with Ayo
+# Python Bootcamp
+Learning with Aysuarex
