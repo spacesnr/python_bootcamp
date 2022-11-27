@@ -1,2 +1,2 @@
 # Python Bootcamp
-Learning with Aysuarex
+Learning with [Aysuarex](https://github.com/aysuarex)
