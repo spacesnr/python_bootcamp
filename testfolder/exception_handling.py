@@ -12,13 +12,13 @@ print("Thankyou")
 
 """
 
-
-##Do while loop (makes you of the True and break statements)
+"""
+##Do while loop (makes use of the True and break statements)
 ## A simple guessing game
 
 secret_n = 44
 while True:
-    guess = int(input("enter a evalue : "))
+    guess = int(input("enter a value : "))
     if (guess == secret_n):
         print("You guessed it!")
         break
@@ -37,4 +37,3 @@ for i in user_input:
     
 print()
 
-"""
