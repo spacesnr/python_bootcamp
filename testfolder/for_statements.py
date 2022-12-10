@@ -1,3 +1,4 @@
+"""
 var_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 
 for xx in var_list:
@@ -9,13 +10,14 @@ for xx in var_list:
         print("invalid")
   
 
-  
+ """ 
   #  print(xx, end=": ")
 
 '''assignment: print numbers 1-20, multiples of 3 will be replcesd by Fizz 
 and multiples of 5 will be replaced by Buzz. multiples of 3 and 5 will be replaced by FizzBuzz'''
-"""
+
 var_assign = range(1,21)
+i = int(input("Enter a number: "))
 
 for var_input in var_assign:
     if((var_input % 3 == 0) and (var_input % 5 != 0)):
@@ -29,7 +31,7 @@ for var_input in var_assign:
         
     else:
         print("\n", i)
-"""
+
 
 '''
 var_assign = range(1,21)
