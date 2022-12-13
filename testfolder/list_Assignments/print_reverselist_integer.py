@@ -4,13 +4,14 @@
 a_list = [1,2,"4",3,4,5,3.8]
 
 def list_fx(a):
+    list = []
     for char in reversed(a):
         if(type(char) == int):
-            print(char, end=" ")
-        elif(type(char)== str):
-            print("{}s".format(char), end=" ")
+            list.append(char)
         else:
-            print("\ni dont recognise this character")
+            continue
+    print(list)
+     
 list_fx(a_list)
 
 
