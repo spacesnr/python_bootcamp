@@ -3,10 +3,9 @@
 #first we write a function to check for primes
 def check_primes(num):
     for i in range(2,num): #range(2,num) makes it possible to start the count from 2 instead of 0
-        if(num % 2)== 0:
+        if(num % 2 == 0):
             return False
-        else:
-            return True
+    return True
 
 #we write a function to add primes
 def add_prime(num1):
