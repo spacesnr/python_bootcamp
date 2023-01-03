@@ -4,7 +4,7 @@ import math
 
 #function that identifies each shape
 def id_shape(shape):
-    shape = shape.lower() #to make sure the words typed maches with the devs. no caps
+    shape = shape.lower() #to make sure the words typed matches with the devs. no caps
 
     if(shape == "rectangle"):
         return rectangle_area()
