@@ -1,8 +1,8 @@
-"""
+
 #Building out a christmass tree with user input
 
 tree_height = int(input("Enter your tree height: "))
-#spaces increase by 1
+#spaces decrease by 1
 # Hashes increase by 2
 hashes = 1
 tree_spacing = tree_height - 1
@@ -10,7 +10,7 @@ stump = tree_height - 1
 
 while (tree_height != 0):
     for i in range(tree_spacing):
-        print(" ", end="")
+        print(".", end="")
     for i in range(hashes):
         print("#", end="")
     print()
@@ -18,7 +18,7 @@ while (tree_height != 0):
     hashes += 2
     tree_height -= 1
 for r in range(stump):
-    print(" ", end="")
+    print(".", end="")
 print("#")
 
 """
@@ -33,4 +33,6 @@ while True:
         print("you guessed it!!")
         break
     
+"""
+
 
