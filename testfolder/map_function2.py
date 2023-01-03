@@ -7,5 +7,5 @@ def fac(n,y=1):
         return y
     else:
         return n*fac(n-1)
-#print(fac(5,1))
+
 print(reduce(fac,[5,0]))
