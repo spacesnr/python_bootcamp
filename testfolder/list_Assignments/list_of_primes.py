@@ -1,4 +1,4 @@
-#Code that prints a list of primes when given a max number by thr user
+#Code that prints a list of primes when given a max number by the user
 
 #first we write a function to check for primes
 def check_primes(num):
