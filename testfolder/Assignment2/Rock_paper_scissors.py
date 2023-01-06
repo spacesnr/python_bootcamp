@@ -1,4 +1,4 @@
-#A game of rock, paper, scisors against the computer
+#A game of rock, paper, scissors against the computer
 import random
 
 
