@@ -12,7 +12,7 @@ class item:
 
         #Attributes Declaration
         self.__name = name
-        self.price = price
+        self.__price = price
         self.quantity = quantity
 
         #Appending to create a list
@@ -20,20 +20,20 @@ class item:
 
     @property #property decorators are used to declare attributes that cant be changed(read-only)
     def name(self):
-        return self.__name #(putting double __ here and in the attribute declartion section is good practice for the readonly to wrk)
+        return self.__name #(putting double __ here and in the attribute declartion section is good practice for the read-only to wrk)
 
     @name.setter #This decorator is used when you still wish to change the name
     def name(self, value):
-        if (len(value) > 10): #if you want to limit their character input
+        if len(value) > 10: #if you want to limit their character input
             raise Exception("Name too long!")
         else:
             self.__name = value
 
     def calulate_price(self):
-        return self.price * self.quantity
+        return self.__price * self.quantity
     
     def discounted_price(self):
-        self.price = self.price * self.pay_rate
+        self.__price = self.__price * self.pay_rate
 
     @classmethod
     def instantiate_class(cls):
@@ -63,4 +63,4 @@ class item:
 
 
     def __repr__(self):
-        return f"{self.__class__.__name__}('{self.name}',{self.price},{self.quantity})"
+        return f"{self.__class__.__name__}('{self.name}',{self.__price},{self.quantity})"
