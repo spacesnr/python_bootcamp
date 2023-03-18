@@ -1,5 +1,5 @@
 var_list = ["man","boy","goat","age","milk","rat","cat"]
 num = len(var_list)
-for i in range(num):
-    print(i, var_list[i])
+for n in range(num):
+    print(n, var_list[n][0])
 
