@@ -1,0 +1,49 @@
+1. ArithmeticError : Raised when an error occurs in numeric calculations 
+
+2. AssertionError : Raised when an assert statement fails 
+
+3. AttributeError : Raised when attribute reference or assignment fails 
+
+4. Exception : Base class for all exceptions 
+
+5. EOFError : Raised when the input() method hits an "end of file" condition (EOF) 
+
+6. FloatingPointError : Raised when a floating point calculation fails 
+
+7. GeneratorExit : Raised when a generator is closed (with the close() method) 
+
+8. ImportError : Raised when an imported module does not exist 
+
+9. IndentationError : Raised when indentation is not correct 
+
+10. IndexError : Raised when an index of a sequence does not exist 
+
+11. KeyError : Raised when a key does not exist in a dictionary 
+
+12. KeyboardInterrupt : Raised when the user presses Ctrl+c, Ctrl+z or Delete 
+
+13. LookupError : Raised when errors raised cant be found 
+
+14. MemoryError : Raised when a program runs out of memory 
+
+15. NameError : Raised when a variable does not exist 
+
+16. NotImplementedError : Raised when an abstract method requires an inherited class to override the method 
+
+17. OSError : Raised when a system related operation causes an error 
+
+18. OverflowError : Raised when the result of a numeric calculation is too large 
+
+19. ReferenceError Raised when a weak reference object does not exist 
+
+20. RuntimeError : Raised when an error occurs that do not belong to any specific exceptions 
+
+21. StopIteration : Raised when the next() method of an iterator has no further values 
+
+22. SyntaxError Raised when a syntax error occurs
+
+23. TabError Raised when indentation consists of tabs or spaces 
+
+24. SystemError Raised when a system error occurs 
+
+25. SystemExit Raised when the sys.exit() function is called
