@@ -60,8 +60,8 @@ class phone(item):
 
 
 
-#item1=phone("lg", 400, 100, 4)
-#print(item1.calulate_price())
+item1=phone("lg", 400, 100, 4)
+print(item1.calulate_price())
 print(phone.all)
 print(item.all)   
     
